@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+section {
+  min-width: 496px;
+}
+
+.modal-container {
+  width: 25em;
+  border-radius: 35px;
+}
+input {
+  border: none;
+  background-color: #93939324;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border-radius: 8px;
+  outline: none;
+  font-family: 'Work Sans';
+  font-weight: 300;
+}
+
+label {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 14px;
+}
+h2 {
+  background: linear-gradient(94.44deg, #0047ff -6.14%, #ff00a8 91.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+button {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border-radius: 8px;
+  padding: 1em 0 1em 0;
+  border: 1px solid white;
+  font-size: 14px;
+  font-family: 'Work Sans';
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.95);
+  border: 1px solid black;
+}
+.forgot-pswd {
+  text-decoration: none;
+  color: #04092199;
+  font-size: 14px;
+  font-family: 'Work Sans';
+}
+.forgot-pswd:hover {
+  color: black;
+}
+span {
+  height: 1px;
+  background: black;
+}
+
+.bw-button button {
+  display: inline-block;
+}
+.bw-button :first-child {
+  padding-right: 1.3em;
+}
+
+.bw-button :nth-child(2) {
+  padding-right: 1.8em;
+}
+.bw-button :nth-child(3) {
+  padding-right: 2.7em;
+}
+
+.bw-button :first-child img {
+  /* margin-right: 0.4em; */
+  width: 39px;
+  height: 21px;
+}
+.bw-button :nth-child(2) img {
+  margin-right: 0.3em;
+  width: 39px;
+  height: 21px;
+}
+
+.bw-button :nth-child(3) img {
+  margin-right: 0.7em;
+  width: 39px;
+  height: 21px;
+}
+.logo-container img {
+  width: 24px;
+}
+
+.logo-container :first-child a {
+  margin-top: 0.25em;
+  color: #0047ff;
+  text-decoration: none;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 12px;
+}
+.logo-container :nth-child(2) a {
+  margin-top: 0.25em;
+  color: #ff0000;
+  text-decoration: none;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 12px;
+}
+.logo-container :nth-child(3) a {
+  margin-top: 0.25em;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 12px;
+}
+.circle {
+  padding: 1em;
+  border-radius: 60%;
+  border: 1px solid #eeeeee;
+}
+#pswd_eye_closed,
+#pswd_eye_closed_alt {
+  width: 21.65px;
+  position: relative;
+  bottom: 2.75em;
+  left: 17em;
+  height: 20px;
+}
+#pswd_eye_open,
+#pswd_eye_open_alt {
+  width: 20px;
+  position: relative;
+  bottom: 3em;
+  left: 17em;
+  display: none;
+  margin: 0;
+}
+.line {
+  background-color: #dddddd;
+  width: 120px;
+  height: 1px;
+}
+.or {
+  font-family: 'Work Sans';
+  font-size: 15px;
+  margin: 0 1.4em 0 1.4em;
+}
